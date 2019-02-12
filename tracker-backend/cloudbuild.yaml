@@ -1,0 +1,3 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+  args: ['functions', 'deploy', 'getgames1', '--trigger-http', '--runtime', 'go111', '--entry-point', 'GetGames', '--source', 'tracker-backend']
