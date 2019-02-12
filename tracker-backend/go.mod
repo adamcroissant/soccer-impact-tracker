@@ -1,1 +1,1 @@
-module github.com/adamcroissant/soccer-impact-tracker
+module github.com/adamcroissant/soccer-impact-tracker/tracker-backend
