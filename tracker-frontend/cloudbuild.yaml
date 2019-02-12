@@ -1,0 +1,3 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['compute', 'instance-groups', 'managed', 'rolling-action', 'start-update', 'frontend-group', '--version', 'template=instance-template-2', '--zone', 'us-central1-f']
