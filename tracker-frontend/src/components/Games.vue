@@ -9,10 +9,10 @@
                 <th>Attended?</th>
             </tr>
             <tr v-for="row in rows" :key="row.id">
-                <td :id="'game-' + row.id">{{row.opponent}}</td>
-                <td>{{row.date}}</td>
-                <td>{{row.result}}</td>
-                <td>{{row.didAttend}}</td>
+                <td :id="'game-' + row.id">{{row.Opponent}}</td>
+                <td>{{row.Date}}</td>
+                <td>{{row.Result}}</td>
+                <td>{{row.DidAttend}}</td>
             </tr>
         </table>
     </div>
